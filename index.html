@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>MusicApp</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">  <!--header-->
+        <div class="container">  <!--container-->
+            <div class="row">  <!--row-->
+                <div class="col-sm-3 Menu">  <!--menu-->
+                    <h1>Playlist</h1>
+                    <div class="playlist">
+                        <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                        <h4><span></span><i class="bi bi-music-note-beamed"></i>Lastlistening</h4>
+                        <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+                    </div>
+
+                    <div class="MenuSong">  <!--menu song-->
+
+                     <li class="SongItem">
+                        <span>01</span>
+                        <img src="/images/1.jpg" alt="">
+                        <h5>Nightcall  <br>
+                        <div class="subtitle">
+                        Kavinsky
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="1"></i>
+                     </li>
+
+                     <li class="SongItem">
+                        <span>02</span>
+                        <img src="/images/2.jpg" alt="">
+                        <h5>Let her go <br>
+                        <div class="subtitle">
+                        Passenger
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="2"></i>
+                     </li>
+
+
+
+                     <li class="SongItem">
+                        <span>03</span>
+                        <img src="/images/3.jpg" alt="">
+                        <h5>The night we met  <br>
+                        <div class="subtitle">
+                        Lord Huran
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="3"></i>
+                     </li>
+
+                     <li class="SongItem">
+                        <span>04</span>
+                        <img src="/images/4.jpg" alt="">
+                        <h5>Phonk  <br>
+                        <div class="subtitle">
+                        Beazilain
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="4"></i>
+                     </li>
+
+                     <li class="SongItem">
+                        <span>05</span>
+                        <img src="/images/5.jpg" alt="">
+                        <h5>Something in the way  <br>
+                        <div class="subtitle">
+                        Nivrana
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="5"></i>
+                     </li>
+
+                     <li class="SongItem">
+                        <span>06</span>
+                        <img src="/images/6.jpg" alt="">
+                        <h5>I'm Vengeance  <br>
+                        <div class="subtitle">
+                        Batman
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="6"></i>
+                     </li>
+
+                     <li class="SongItem">
+                        <span>07</span>
+                        <img src="/images/7.jpg" alt="">
+                        <h5>Faye Webster <br>
+                        <div class="subtitle">
+                        Kingston
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="7"></i>
+                     </li>
+
+                     <li class="SongItem">
+                        <span>08</span>
+                        <img src="/images/8.jpg" alt="">
+                        <h5>See u again  <br>
+                        <div class="subtitle">
+                        Wiz Khalifa
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="8"></i>
+                     </li>
+
+                     <li class="SongItem">
+                        <span>09</span>
+                        <img src="/images/9.jpg" alt="">
+                        <h5>After hours  <br>
+                        <div class="subtitle">
+                        Weekend
+                        </div></h5>
+                        <i class="bi playListplay bi-play-circle" id="9"></i>
+                     </li>
+
+
+                      </div>   <!--menu song-->
+                    </div>   <!--menu-->
+
+                <div class="col-sm-9 Songs">  <!--songs-->
+                   <nav>
+                     <ul>
+                        <li  > DISCOVER <span></span></li>
+                        <li>MY LIBRARY</li>
+                        <li>RADIO</li>
+                     </ul>
+                     <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="search" placeholder="Search music..">
+                     </div>
+                     <div class="user">
+                        <img src="/images/User.png">
+                     </div>
+                   </nav>
+
+                   <div class="content">
+                     <h1>Kavinsky</h1>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eaque rem quas<br> sequi ipsum similique rerum cum alias quia veritatis provident minima temporibus suscipit quae, facere ea veniam. Numquam, sunt?</p>
+                     <div class="buttons">
+                        <button type="button">PLAY</button>
+                        <button type="button">FOLLOW</button>
+
+                     </div>
+
+                   </div>
+                   <div class="popular">
+                     <div class="h4">
+                        <h4>Popular songs</h4>
+                        <div class="btnss">
+                           <i class="bi bi-arrow-left" id="popsongleft"></i>      
+                           <i class="bi bi-arrow-right" id="popsongright"></i>
+                        </div>
+                     </div>
+                     <div class="popsong">
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/10.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="10"></i>
+                           </div>
+                           <h5>Perfect  <br>
+                           <div class="subtitle">
+                           Ed Sheeran
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/11.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="11"></i>
+                           </div>
+                           <h5>Until I found You  <br>
+                           <div class="subtitle">
+                           Stephen Sanchez
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/12.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="12"></i>
+                           </div>
+                           <h5>Tadow  <br>
+                           <div class="subtitle">
+                           Masego RKJ
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/13.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="13"></i>
+                           </div>
+                           <h5>Happy hour  <br> 
+                           <div class="subtitle">
+                           Talha Anjum
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/14.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="14"></i>
+                           </div>
+                           <h5>Punya Paap <br>
+                           <div class="subtitle">
+                           Divine
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/15.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="15"></i>
+                           </div>
+                           <h5>Without me <br>
+                           <div class="subtitle">
+                           Eminem
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/16.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="16"></i>
+                           </div>
+                           <h5>Violent Crime <br>
+                           <div class="subtitle">
+                           Kanye West
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/17.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="17"></i>
+                           </div>
+                           <h5>Moonlight<br>
+                           <div class="subtitle">
+                           XXXtenacion
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/18.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="18"></i>
+                           </div>
+                           <h5>Yadav Brand <br>
+                           <div class="subtitle">
+                            Elivish
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/19.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="19"></i>
+                           </div>
+                           <h5>Hasta rhta hoo <br>
+                           <div class="subtitle">
+                           Kabir Singh
+                           </div></h5>
+                        </li>
+
+                        <li class="SongItem">
+                           <div class="imgplay">
+                              <img src="/images/20.jpg" alt="">
+                              <i class="bi playListplay bi-play-circle" id="20"></i>
+                           </div>
+                           <h5>Rocky <br>
+                           <div class="subtitle">
+                           Balboa
+                           </div></h5>
+                        </li>
+
+
+   
+                     </div>
+  
+
+                   </div>
+                   <div class="popularArtist">  
+                     <div class="h4">
+                        <h4>Popular Artists</h4>
+                        <div class="btnss">
+                           <i class="bi bi-arrow-left" id="popartleft"></i>      
+                           <i class="bi bi-arrow-right" id="popartright"></i>
+                        </div>
+                     </div>
+                     <div class="items">
+                        <li>
+                           <img src="/images/kavin.webp" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/passenger.avif" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/eminem.webp"  alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/wizkhalifa.jpg" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/Stephen Sanchez.webp" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/talha.webp" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/kingston.jpeg" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/wizkhalifa.jpg" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/weekend.webp" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/eedsheeran.jpg" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/Stephen Sanchez.webp" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/Masego RKJ.webp" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/talha.webp" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/divine.jpeg" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/eminem.webp" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/Kanye West.jpg" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/wizkhalifa.jpg" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/oteribhenke.jpg" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/wizkhalifa.jpg" alt="">
+                        </li>
+
+                        <li>
+                           <img src="/images/wizkhalifa.jpg" alt="">
+                        </li>
+                        <li>
+                           <img src="/images/divine.jpeg" alt="">
+                        </li>
+
+
+
+
+                     </div>
+
+                   </div>
+
+
+                </div>  <!--songs-->
+
+                
+            </div>    <!--row-->
+        </div>  <!--container-->
+
+        <div class="container">  <!--container-->
+         <div class="row">  <!--row-->
+            <div class="col-sm-12 MasterPlay">   <!--MasterPlay-->
+               <div class="wave" id="wave">
+                  <div class="wave1"></div>
+                  <div class="wave1"></div>
+                  <div class="wave1"></div>
+
+               </div>
+               <img src="/images/1.jpg" id="posterofmasterplay" alt="">
+               <h5 id="title">
+                  Nightcall
+                  <div class="subtitle">Kavinsky</div>
+               </h5>
+               <div class="icons">
+                  <i class="bi bi-music-note-beamed">Next</i>
+                  <i class="bi bi-skip-start-fill" id="back"></i>
+                  <i class="bi bi-play-fill" id="masterplaybtn"></i>
+                  <i class="bi bi-skip-end-fill" id="next"></i>
+                  <i class="bi bi-cloud-arrow-down-fill"></i>
+               </div>
+               <span id="CurrentStart">00:00</span>
+               <div class="bar">
+                  <input type="range" id="seek" min="0" max="100">
+                  <div class="bar2" id="bar2"></div>
+                  <div class="dot"></div>
+               </div>
+               <span id="CurrentEnd">00:30</span>
+               <div class="volume">
+                  <i class="bi bi-volume-up-fill" id="volIcon"></i>
+                  <input type="range" min="0" max="100" id="vol">
+                  <div class="volbar" id="volbar"></div>
+                  <div class="voldot" id="voldot"></div>
+               </div>
+
+            </div>   <!--MasterPlay-->
+         </div>  <!--row-->
+        </div>  <!--container-->
+
+
+        
+        
+         </div>  <!--header-->
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
