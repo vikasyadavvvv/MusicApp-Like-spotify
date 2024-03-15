@@ -238,14 +238,14 @@ body{
     font-size: 25px;
     margin-left: 15px;
 }
-#CurrentStart{
+#CurrentEnd{
     color: whitesmoke;
     width: 55px;
     margin-left: 10px;
     font-size: 13px;
     font-weight: 400;
 }
-#CurrentEnd{
+#CurrentStart{
     color: whitesmoke;
     font-weight: 400;
     font-size: 13px;
